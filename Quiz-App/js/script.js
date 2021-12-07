@@ -4,16 +4,16 @@ const quizData = [
         a: "KILL THE BOYS WHO ROUGHED UP HIS DAUGHTER",
         b: "LEND HIM MONEY",
         c: "FIND HIS DAUGHTER A SUITABLE ITALIAN HUSBAND",
-        d: "FIND HIS DAUGHTER, WHO IS MISSING",
+        d: "FIND HIS DAUGHTER, WHO WAS MISSING",
         correct: "a"
     },
 
     {
         question: " Why does Don Corleone delay the family photograph at Connie's wedding?",
-        a: "SONNY IS NOT THERE",
+        a: "SONNY WAS NOT THERE",
         b: "THE PHOTO WOULD BE BACKLIT",
-        c: "THE DON HAS A MEETING TO GET TO",
-        d: "MICHAEL HAS NOT YET ARRIVED",
+        c: "THE DON HAD A MEETING TO GET TO",
+        d: "MICHAEL HAD NOT YET ARRIVED",
         correct:"d",
     },
 
@@ -32,12 +32,12 @@ const quizData = [
         a: "The only member of the Corleone family that was not of their blood",
         b: "Fredo's bastard",
         c: "The Don",
-        d: "Connie's adopteed child",
+        d: "Connie's adopted child",
         correct:"c",
     },
     
     {
-        question: "Which of the following characters is NOT a guest at Connie and Carlo's wedding?",
+        question: "Which of the following characters was NOT a guest at Connie and Carlo's wedding?",
         a: "WOLTZ",
         b: "FREDO",
         c: "JOHNNY FONTANE",
@@ -87,7 +87,7 @@ const quizData = [
         a: "Enzo",
         b: "Nazorine",
         c: "Bonasera",
-        d: "",
+        d: "Johhny",
         correct:"b",        
     },
 
