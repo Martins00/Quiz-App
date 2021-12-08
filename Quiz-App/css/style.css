@@ -6,7 +6,8 @@
 }
 
 body {
-    background-color: white;
+    background-image: url('./img/img1.jpg');
+    background-color: red;
     color: red;
     display: flex;
     justify-content: center;
