@@ -6,7 +6,6 @@
 }
 
 body {
-    background-image: url('./img/img1.jpg');
     background-color: red;
     color: red;
     display: flex;
@@ -73,4 +72,14 @@ button {
 button:hover {
     background-color: white;
     color: red;
+}
+
+@media screen and (max-height: 812px) {
+    body{height: 90vh;}
+    
+    button:hover {
+        background-color: white;
+        color: red;
+        }
+
 }
