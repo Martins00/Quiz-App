@@ -24,6 +24,7 @@ body {
     width: 600px;
     overflow: hidden;
     
+    
 }
 
 #quiz {
@@ -74,12 +75,13 @@ button:hover {
     color: red;
 }
 
-@media screen and (max-height: 812px) {
-    body{height: 90vh;}
+@media (max-height: 816px) {
     
-    button:hover {
-        background-color: white;
-        color: red;
-        }
+    body{
+        height: 100vh;
+    }
 
+    #container {
+        margin-bottom: 100px;
+    }
 }
