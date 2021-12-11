@@ -3,7 +3,10 @@
 
 
 body {
-    background-color: red;
+    /* background-image: url('../img/img4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: black;
     color: red;
     display: flex;
     justify-content: center;
@@ -20,8 +23,6 @@ body {
     border-radius: 10px;
     width: 600px;
     overflow: hidden;
-    
-    
 }
 
 #quiz {
@@ -56,7 +57,7 @@ ul li label {
 }
 
 button {
-    background-color: red;
+    background-color:red;
     color: white;
     border: none;
     display: block;
@@ -72,13 +73,4 @@ button:hover {
     color: red;
 }
 
-@media (max-height: 816px) {
-    
-    body{
-        height: 100vh;
-    }
-
-    #container {
-        margin-bottom: 100px;
-    }
-}
+@media screen and (max-width: 800px) and (max-height: 640px) {};
